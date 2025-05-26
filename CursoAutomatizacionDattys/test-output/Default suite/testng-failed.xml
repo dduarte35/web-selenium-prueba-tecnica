@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.chrome.ChromeTest">
+      <class name="com.opensource.recruitment.qa.TC001_Recruitment_Add">
         <methods>
-          <include name="f"/>
-          <include name="afterTest"/>
+          <include name="TC001_Recruitment_Add_TC"/>
           <include name="beforeTest"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- com.chrome.ChromeTest -->
+      </class> <!-- com.opensource.recruitment.qa.TC001_Recruitment_Add -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
